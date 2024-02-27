@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Pay with PayPal</title>
+    <link rel="stylesheet" type="text/css" href="/static/paypal.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Pay with PayPal</h1>
+        <form id="payment-form" method="post" action="/pay">
+            <input type="hidden" name="amount" value="10.00">
+            <input type="hidden" name="csrf_token" value="{{ csrf_token() }}">
+            <button class="paypal-button" type="submit">Pay with PayPal</button>
+        </form>
+    </div>
+</body>
+</html>
+

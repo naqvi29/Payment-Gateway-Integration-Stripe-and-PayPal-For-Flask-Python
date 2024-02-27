@@ -1,0 +1,40 @@
+/* styles.css */
+
+/* Style for PayPal page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f6f6f6;
+    padding: 20px;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+h1 {
+    text-align: center;
+}
+
+/* Style for PayPal-like button */
+.paypal-button {
+    display: inline-block;
+    background-color: #0070ba;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+    transition: background-color 0.3s;
+}
+
+.paypal-button:hover {
+    background-color: #004d7a;
+}
